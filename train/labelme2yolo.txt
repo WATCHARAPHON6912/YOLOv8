@@ -1,0 +1,2 @@
+labelme2yolo --json_dir folder/train
+yolo task=segment mode=train epochs=100 data=dataset.yaml model=yolov8n-seg.pt imgsz=640 batch=8
